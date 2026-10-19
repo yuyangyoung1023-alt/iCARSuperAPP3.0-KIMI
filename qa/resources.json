@@ -1,0 +1,56 @@
+[
+  {
+    "path": "assets/videos/AI停车位置记忆.mp4",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-YISCbO/AI停车位置记忆.mp4",
+    "bytes": 21268101,
+    "sha256": "6de90a60505242a0e11d333a54032997932519a944d8a74df211f49ec35f7987"
+  },
+  {
+    "path": "assets/videos/停车扫码支付.mp4",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-wxbFzO/停车扫码支付.mp4",
+    "bytes": 11021107,
+    "sha256": "ee5e39412b93b02de13c0b12a0f596d5527a581a5fc8b09045143eb405f33f41"
+  },
+  {
+    "path": "assets/videos/哨兵PLUS.mp4",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-jc2Nkw/哨兵PLUS.mp4",
+    "bytes": 24652163,
+    "sha256": "bf316b25516b6a92af4e49a8ad8b76b67ab03a75bebd05429cb9926e0311aaba"
+  },
+  {
+    "path": "assets/brand/前45.webp",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-K7He0w/前45.webp",
+    "bytes": 123782,
+    "sha256": "73da644618e04fcca5a23788e516d0d038414cceb46b814423a8f5d28ee47f00"
+  },
+  {
+    "path": "assets/brand/正面.webp",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-0JAePL/正面.webp",
+    "bytes": 80704,
+    "sha256": "b544a3f1d4c1eecb719ddb785a7cc839237566682b2cac4497d4bc258f4b88a6"
+  },
+  {
+    "path": "assets/brand/侧面.webp",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-QeK8yi/侧面.webp",
+    "bytes": 102022,
+    "sha256": "9b3a6d50e3efd0ca0ab81b82ed8f04badda53a6e9937c61136e78546d5b8b646"
+  },
+  {
+    "path": "assets/brand/后面.webp",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-CGwpYP/后面.webp",
+    "bytes": 68250,
+    "sha256": "0e7093f462589e144c1dd203d5b3f0e35d4df5bc1414c0efd76dd1c3b3eabbec"
+  },
+  {
+    "path": "assets/brand/卡基狗.png",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-1QPJuj/img_v3_0216g_b733617b-6a01-4eb4-918e-ebe78659984g.png",
+    "bytes": 998857,
+    "sha256": "3119329888c3139179ea9af8a82f3700f50db3fb1cbb63e9fc6374637fa3c2c4"
+  },
+  {
+    "path": "assets/brand/页面参考.png",
+    "source": "/var/folders/wt/wk_bjrd1431f4h5sj9rvj5t40000gn/T/codex-file-preview-6TGs6a/已生成图像 1.png",
+    "bytes": 3269835,
+    "sha256": "f91b2471f69c33c676630adb8aa74bc2510f65c4985863f0fdabed9768d98329"
+  }
+]

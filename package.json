@@ -1,0 +1,9 @@
+{
+  "name": "icar-super-app-kimi",
+  "version": "3.0.0",
+  "private": true,
+  "description": "iCAR Claw 超级APP 3.0 本地审阅版（KIMI 整改版）",
+  "scripts": {
+    "dev": "python3 scripts/dev-server.py"
+  }
+}

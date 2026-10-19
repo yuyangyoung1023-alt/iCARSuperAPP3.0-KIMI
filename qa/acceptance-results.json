@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-15T13:24:20.398Z",
+  "results": [
+    {
+      "name": "42个唯一场景及六类数量",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "智慧场景默认前5",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "查看更多完整15项",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "分类/更多/横滑位置恢复",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "find-car原视频播放暂停",
+      "passed": true,
+      "details": {
+        "duration": 30.08,
+        "time": 0.237097,
+        "width": 854
+      }
+    },
+    {
+      "name": "find-car视频进度重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "parking-pay原视频播放暂停",
+      "passed": true,
+      "details": {
+        "duration": 20.063991,
+        "time": 0.303783,
+        "width": 854
+      }
+    },
+    {
+      "name": "parking-pay视频进度重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "sentry-plus原视频播放暂停",
+      "passed": true,
+      "details": {
+        "duration": 24.53,
+        "time": 0.294422,
+        "width": 1344
+      }
+    },
+    {
+      "name": "sentry-plus视频进度重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-car十意图Query",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-car播放暂停",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-car重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-travel十意图Query",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-travel播放暂停",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-travel重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-life十意图Query",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-life播放暂停",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-life重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-music十意图Query",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-music播放暂停",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-music重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-video十意图Query",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-video播放暂停",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ma-video重播",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "42详情名称及独立入口",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "所有介绍播放不申请麦克风",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "体验才申请麦克风且空白识别",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "识别等待确认，不提前执行",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "继续说追加输入",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "确认后进入原DM任务流程",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "麦克风拒绝异常反馈",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "独立APP不进入管理",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "动作搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "组合筛选",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "空态",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "清除筛选",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "缺失权限不能绕过",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "拒绝不更改权限",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "授权恢复场景",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "创建进入原规则检查",
+      "passed": true,
+      "details": {
+        "phase": "ready",
+        "preview": {
+          "id": null,
+          "name": "周末测试",
+          "desc": "用语音创建的专属主动场景",
+          "source": "我的场景",
+          "mode": "提醒并执行",
+          "enabled": true,
+          "requires": [
+            "account"
+          ],
+          "trigger": "周末 · 早上8点",
+          "actions": [
+            "空调 22°C"
+          ],
+          "record": "暂无记录"
+        },
+        "matches": []
+      }
+    },
+    {
+      "name": "创建保存",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "编辑保存与历史",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "删除确认",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "删除撤销恢复",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "互斥规则检测",
+      "passed": false,
+      "details": ""
+    },
+    {
+      "name": "保留设置 voice",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "保留设置 memory",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "保留设置 personal",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "保留设置 privacy",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "主动服务入口已迁出设置",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "撤销权限管理实时降级",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "快速切换无重复UI",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1280发现页边界",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1280管理4列",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1600发现页边界",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1600管理4列",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1920发现页边界",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "1920管理4列",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "减少动态偏好",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "暂停动效",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "V2存储未被修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "V3独立存储",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无页面脚本错误",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "ASR由测试桩驱动，真实麦克风、真实ASR、TTS可听性未实测",
+    "真实车辆、账号、声纹、Memory及外部订单服务未接入"
+  ]
+}

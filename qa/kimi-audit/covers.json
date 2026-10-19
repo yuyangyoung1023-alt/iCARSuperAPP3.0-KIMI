@@ -1,0 +1,212 @@
+{
+ "find-car": {
+  "cat": "smart",
+  "name": "寻车场景（AI停车位置记忆）",
+  "cover": "assets/covers/find-car.png"
+ },
+ "parking-pay": {
+  "cat": "smart",
+  "name": "停车缴费（停车扫码支付）",
+  "cover": "assets/covers/parking-pay.png"
+ },
+ "sentry-plus": {
+  "cat": "smart",
+  "name": "哨兵PLUS",
+  "cover": "assets/covers/sentry.png"
+ },
+ "app-master": {
+  "cat": "smart",
+  "name": "智能应用大师",
+  "cover": "assets/covers/automation.png"
+ },
+ "scene-master": {
+  "cat": "smart",
+  "name": "智能场景大师",
+  "cover": "assets/covers/automation.png"
+ },
+ "child-left": {
+  "cat": "smart",
+  "name": "儿童遗留守护",
+  "cover": "assets/covers/child.png"
+ },
+ "visibility": {
+  "cat": "smart",
+  "name": "视野恢复",
+  "cover": "assets/covers/rain.png"
+ },
+ "fatigue": {
+  "cat": "smart",
+  "name": "疲劳驾驶关怀",
+  "cover": "assets/covers/cabin.png"
+ },
+ "child-risk": {
+  "cat": "smart",
+  "name": "儿童危险行为提醒",
+  "cover": "assets/covers/child.png"
+ },
+ "pet-left": {
+  "cat": "smart",
+  "name": "宠物遗留守护",
+  "cover": "assets/covers/pet.png"
+ },
+ "item-left": {
+  "cat": "smart",
+  "name": "遗留物品提醒",
+  "cover": "assets/covers/belongings.png"
+ },
+ "commute": {
+  "cat": "smart",
+  "name": "通勤模式",
+  "cover": "assets/covers/route.png"
+ },
+ "welcome": {
+  "cat": "smart",
+  "name": "记忆迎宾与恢复",
+  "cover": "assets/covers/cabin.png"
+ },
+ "content": {
+  "cat": "smart",
+  "name": "主动内容推荐",
+  "cover": "assets/covers/news.png"
+ },
+ "scenic": {
+  "cat": "smart",
+  "name": "沿途风景讲解",
+  "cover": "assets/covers/route.png"
+ },
+ "fortune": {
+  "cat": "fun",
+  "name": "运势与占卜",
+  "cover": "assets/covers/fortune.png"
+ },
+ "chat": {
+  "cat": "fun",
+  "name": "情绪陪聊",
+  "cover": "assets/covers/conversation.png"
+ },
+ "encyclopedia": {
+  "cat": "fun",
+  "name": "百科问答",
+  "cover": "assets/covers/knowledge.png"
+ },
+ "english": {
+  "cat": "fun",
+  "name": "英语对话",
+  "cover": "assets/covers/english.png"
+ },
+ "games": {
+  "cat": "fun",
+  "name": "语音互动游戏",
+  "cover": "assets/covers/games.png"
+ },
+ "sound": {
+  "cat": "fun",
+  "name": "音效与声场调节",
+  "cover": "assets/covers/audio.png"
+ },
+ "persona": {
+  "cat": "fun",
+  "name": "自定义人设",
+  "cover": "assets/covers/audio.png"
+ },
+ "visual-chat": {
+  "cat": "fun",
+  "name": "沿途识物与看图聊天",
+  "cover": "assets/covers/route.png"
+ },
+ "ma-car": {
+  "cat": "car",
+  "name": "一句话，搞定复杂车控（MA）",
+  "cover": "assets/covers/cabin.png"
+ },
+ "nap": {
+  "cat": "car",
+  "name": "惬意午休",
+  "cover": "assets/covers/cabin.png"
+ },
+ "manual": {
+  "cat": "car",
+  "name": "智能车书",
+  "cover": "assets/covers/cabin.png"
+ },
+ "repair": {
+  "cat": "car",
+  "name": "故障维修",
+  "cover": "assets/brand/前45.webp"
+ },
+ "outside-park": {
+  "cat": "car",
+  "name": "车外语音泊车",
+  "cover": "assets/brand/前45.webp"
+ },
+ "outside-control": {
+  "cat": "car",
+  "name": "车外基础车控",
+  "cover": "assets/covers/cabin.png"
+ },
+ "ma-travel": {
+  "cat": "travel",
+  "name": "一句话，安排复杂行程（MA）",
+  "cover": "assets/covers/route.png"
+ },
+ "memory-nav": {
+  "cat": "travel",
+  "name": "记忆导航",
+  "cover": "assets/covers/route.png"
+ },
+ "precise-nav": {
+  "cat": "travel",
+  "name": "精准导航",
+  "cover": "assets/covers/route.png"
+ },
+ "guide-route": {
+  "cat": "travel",
+  "name": "攻略转路线",
+  "cover": "assets/covers/route.png"
+ },
+ "along-route": {
+  "cat": "travel",
+  "name": "沿途好去处",
+  "cover": "assets/covers/route.png"
+ },
+ "ma-life": {
+  "cat": "life",
+  "name": "一句话，安排聚餐（MA）",
+  "cover": "assets/covers/dining.png"
+ },
+ "restaurant": {
+  "cat": "life",
+  "name": "餐厅推荐与订座",
+  "cover": "assets/covers/dining.png"
+ },
+ "pickup": {
+  "cat": "life",
+  "name": "顺路点单取餐",
+  "cover": "assets/covers/dining.png"
+ },
+ "hotel": {
+  "cat": "life",
+  "name": "酒店预订",
+  "cover": "assets/covers/hotel.png"
+ },
+ "tickets": {
+  "cat": "life",
+  "name": "电影与活动订票",
+  "cover": "assets/covers/cinema.png"
+ },
+ "ma-music": {
+  "cat": "entertainment",
+  "name": "一句话，玩转音乐（MA）",
+  "cover": "assets/covers/audio.png"
+ },
+ "ma-video": {
+  "cat": "entertainment",
+  "name": "一句话，玩转视频（MA）",
+  "cover": "assets/covers/cinema.png"
+ },
+ "news": {
+  "cat": "entertainment",
+  "name": "新闻播报与解读",
+  "cover": "assets/covers/news.png"
+ }
+}

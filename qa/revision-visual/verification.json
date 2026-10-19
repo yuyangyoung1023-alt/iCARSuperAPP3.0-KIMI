@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "name": "展台光线随时间变化",
+      "pass": true
+    },
+    {
+      "name": "暂停冻结真实动画",
+      "pass": true
+    },
+    {
+      "name": "恢复动画",
+      "pass": true
+    },
+    {
+      "name": "分类转场启动",
+      "pass": true
+    },
+    {
+      "name": "MA详情保留10意图",
+      "pass": true
+    },
+    {
+      "name": "设置全屏且无嵌套目录",
+      "pass": true
+    },
+    {
+      "name": "四组原设置在同一页面",
+      "pass": true
+    },
+    {
+      "name": "原语音开关保留",
+      "pass": true
+    },
+    {
+      "name": "全屏返回保留角色草稿保护",
+      "pass": true
+    },
+    {
+      "name": "管理搜索保留",
+      "pass": true
+    },
+    {
+      "name": "1280发现页内容不越界",
+      "pass": true
+    },
+    {
+      "name": "1280设置不横向溢出",
+      "pass": true
+    },
+    {
+      "name": "1600发现页内容不越界",
+      "pass": true
+    },
+    {
+      "name": "1600设置不横向溢出",
+      "pass": true
+    },
+    {
+      "name": "1920发现页内容不越界",
+      "pass": true
+    },
+    {
+      "name": "1920设置不横向溢出",
+      "pass": true
+    },
+    {
+      "name": "减少动态偏好",
+      "pass": true
+    },
+    {
+      "name": "无页面脚本异常",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

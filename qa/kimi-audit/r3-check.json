@@ -1,0 +1,15 @@
+{
+ "issues": [],
+ "animInfo": {
+  "total": 39,
+  "onCarDog": 5,
+  "onCards": 5,
+  "onRings": 4,
+  "onSweep": 1,
+  "onHero": 2
+ },
+ "silent": {
+  "modal": "modalWrap",
+  "toast": "toast"
+ }
+}

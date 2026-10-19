@@ -1,0 +1,746 @@
+{
+  "categories": [
+    {
+      "id": "smart",
+      "name": "智慧场景",
+      "subtitle": "主动感知，贴心服务"
+    },
+    {
+      "id": "fun",
+      "name": "iCAR趣玩",
+      "subtitle": "和 iCAR 一起，发现更多乐趣"
+    },
+    {
+      "id": "car",
+      "name": "智能车控",
+      "subtitle": "自然对话，轻松控车"
+    },
+    {
+      "id": "travel",
+      "name": "智慧出行",
+      "subtitle": "更聪明的出行体验"
+    },
+    {
+      "id": "life",
+      "name": "智慧生活",
+      "subtitle": "出行路上的生活助手"
+    },
+    {
+      "id": "entertainment",
+      "name": "智慧娱乐",
+      "subtitle": "想听想看，随心畅享"
+    }
+  ],
+  "scenes": [
+    {
+      "category": "smart",
+      "sceneId": "find-car",
+      "name": "寻车场景（AI停车位置记忆）",
+      "description": "离车记位置，回来轻松找到车",
+      "domain": "出行助手",
+      "legacySkill": "目的地发现与精准到达",
+      "icon": "route",
+      "video": "assets/videos/AI停车位置记忆.mp4",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "smart",
+      "sceneId": "parking-pay",
+      "name": "停车缴费（停车扫码支付）",
+      "description": "识别停车码，确认后完成缴费",
+      "domain": "生活服务",
+      "legacySkill": "停车缴费",
+      "icon": "parking",
+      "video": "assets/videos/停车扫码支付.mp4",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "smart",
+      "sceneId": "sentry-plus",
+      "name": "哨兵PLUS",
+      "description": "车辆停放时，记录异常与关键片段",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "shield",
+      "video": "assets/videos/哨兵PLUS.mp4",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "smart",
+      "sceneId": "app-master",
+      "name": "智能应用大师",
+      "description": "用自然语言协同应用完成任务",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "sparkles",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "smart",
+      "sceneId": "scene-master",
+      "name": "智能场景大师",
+      "description": "说出习惯，让日常自动发生",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "sparkles",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "smart",
+      "sceneId": "child-left",
+      "name": "儿童遗留守护",
+      "description": "离车后关爱每一位小乘客",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "shield",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "离车锁车后检测到车内儿童",
+        "actions": [
+          "提醒车主返回查看",
+          "持续提示车内遗留风险"
+        ],
+        "requires": [
+          "cabinPeople"
+        ],
+        "triggerType": "车辆状态",
+        "legacyId": null
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "visibility",
+      "name": "视野恢复",
+      "description": "雨雾来临时，恢复清晰视野",
+      "domain": "车辆控制",
+      "legacySkill": "感受类控车",
+      "icon": "wind",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "检测到雨雾或玻璃起雾影响视野",
+        "actions": [
+          "开启除雾",
+          "按需开启雨刷与后视镜加热"
+        ],
+        "requires": [
+          "outside"
+        ],
+        "triggerType": "环境感知",
+        "legacyId": "preset_visibility"
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "fatigue",
+      "name": "疲劳驾驶关怀",
+      "description": "识别疲劳，适时提醒休息",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "shield",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "DMS检测到驾驶疲劳",
+        "actions": [
+          "提醒休息",
+          "推荐安全停车位置",
+          "确认后导航"
+        ],
+        "requires": [
+          "cabinPeople",
+          "map"
+        ],
+        "triggerType": "环境感知",
+        "legacyId": "table_driver_guard"
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "child-risk",
+      "name": "儿童危险行为提醒",
+      "description": "关注儿童乘车行为，及时提醒",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "user",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "检测到儿童危险乘车行为",
+        "actions": [
+          "提醒驾驶员关注儿童",
+          "语音提示安全乘车"
+        ],
+        "requires": [
+          "cabinPeople"
+        ],
+        "triggerType": "环境感知",
+        "legacyId": null
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "pet-left",
+      "name": "宠物遗留守护",
+      "description": "离车后，继续关心毛孩子",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "shield",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "离车锁车后检测到车内宠物",
+        "actions": [
+          "提醒车主查看宠物",
+          "提示座舱环境状态"
+        ],
+        "requires": [
+          "cabinPeople",
+          "cabinEnv"
+        ],
+        "triggerType": "车辆状态",
+        "legacyId": null
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "item-left",
+      "name": "遗留物品提醒",
+      "description": "随身物品，离车前再提醒一次",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "search",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "乘员下车时检测到遗落物品",
+        "actions": [
+          "检查车内物品",
+          "主动提醒携带"
+        ],
+        "requires": [
+          "cabinPeople"
+        ],
+        "triggerType": "车辆状态",
+        "legacyId": "table_leave_guard"
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "commute",
+      "name": "通勤模式",
+      "description": "熟悉的时间，熟悉的舒适出发",
+      "domain": "出行助手",
+      "legacySkill": "常用地直达",
+      "icon": "route",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "工作日早上上车时",
+        "actions": [
+          "导航去公司",
+          "空调调到24度",
+          "准备通勤音乐"
+        ],
+        "requires": [
+          "map",
+          "media"
+        ],
+        "triggerType": "时间",
+        "legacyId": null
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "welcome",
+      "name": "记忆迎宾与恢复",
+      "description": "上车时，恢复熟悉的座舱偏好",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "memory",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "上车且身份匹配成功",
+        "actions": [
+          "读取个人Memory",
+          "恢复座椅与空调偏好",
+          "生成迎宾问候"
+        ],
+        "requires": [
+          "memory",
+          "identity",
+          "cabinPeople"
+        ],
+        "triggerType": "车辆状态",
+        "legacyId": "preset_memory_welcome"
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "content",
+      "name": "主动内容推荐",
+      "description": "为每段旅程准备合适的内容",
+      "domain": "媒资娱乐",
+      "legacySkill": "新闻播报",
+      "icon": "media",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "已配置的通勤时间与上车场景",
+        "actions": [
+          "推荐适合旅程的内容",
+          "确认后播放"
+        ],
+        "requires": [
+          "memory",
+          "media"
+        ],
+        "triggerType": "时间",
+        "legacyId": "table_media_supply"
+      }
+    },
+    {
+      "category": "smart",
+      "sceneId": "scenic",
+      "name": "沿途风景讲解",
+      "description": "路过山海，也听见沿途故事",
+      "domain": "出行助手",
+      "legacySkill": "目的地发现与精准到达",
+      "icon": "route",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "导航路线即将经过景区或地标",
+        "actions": [
+          "识别沿途地标",
+          "生成简短介绍",
+          "合适时机语音播报"
+        ],
+        "requires": [
+          "map"
+        ],
+        "triggerType": "地点",
+        "legacyId": "preset_scenic"
+      }
+    },
+    {
+      "category": "fun",
+      "sceneId": "fortune",
+      "name": "运势与占卜",
+      "description": "用轻松的趣味测试打开旅程",
+      "domain": "iCAR趣玩",
+      "legacySkill": "测测",
+      "icon": "zodiac",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "chat",
+      "name": "情绪陪聊",
+      "description": "倾听此刻心情，陪你聊一会儿",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "user",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "encyclopedia",
+      "name": "百科问答",
+      "description": "一路好奇，一起找答案",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "book",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "english",
+      "name": "英语对话",
+      "description": "把路上的时间变成口语练习",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "mic",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "games",
+      "name": "语音互动游戏",
+      "description": "开口就能参与的车内小游戏",
+      "domain": "iCAR趣玩",
+      "legacySkill": "海龟汤",
+      "icon": "sparkles",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "sound",
+      "name": "音效与声场调节",
+      "description": "找到适合每位乘客的听感",
+      "domain": "车辆控制",
+      "legacySkill": "多任务控车",
+      "icon": "sliders",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "persona",
+      "name": "自定义人设",
+      "description": "选择更合拍的声音与表达",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "user",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "fun",
+      "sceneId": "visual-chat",
+      "name": "沿途识物与看图聊天",
+      "description": "看见新鲜事，随口聊一聊",
+      "domain": "iCAR趣玩",
+      "legacySkill": "沿途识物",
+      "icon": "search",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "car",
+      "sceneId": "ma-car",
+      "name": "一句话，搞定复杂车控（MA）",
+      "description": "一次表达，安排舒适座舱",
+      "domain": "车辆控制",
+      "legacySkill": "多任务控车",
+      "icon": "car",
+      "video": "",
+      "poster": "",
+      "intents": [
+        "车里有点闷，帮我改善空气",
+        "空调调到23度",
+        "风量二档",
+        "不要直吹我",
+        "打开主驾座椅通风",
+        "副驾温度调到24度",
+        "后排风量小一点",
+        "关闭所有车窗",
+        "氛围灯换成暖色",
+        "把这套设置保存为我的偏好"
+      ],
+      "query": "车里有点闷，帮我改善空气，空调调到23度，风量二档，不要直吹我，打开主驾座椅通风，副驾温度调到24度，后排风量小一点，关闭所有车窗，氛围灯换成暖色，把这套设置保存为我的偏好。",
+      "futureVideo": "assets/videos/ma-car.mp4"
+    },
+    {
+      "category": "car",
+      "sceneId": "nap",
+      "name": "惬意午休",
+      "description": "为一段小憩准备舒适环境",
+      "domain": "iCAR趣玩",
+      "legacySkill": "惬意午休",
+      "icon": "car",
+      "video": "",
+      "poster": "",
+      "intents": [],
+      "automation": {
+        "trigger": "驻车且用户启动午休",
+        "actions": [
+          "调整座椅与空调",
+          "降低音乐音量",
+          "设置休息提醒"
+        ],
+        "requires": [],
+        "triggerType": "车辆状态",
+        "legacyId": null
+      }
+    },
+    {
+      "category": "car",
+      "sceneId": "manual",
+      "name": "智能车书",
+      "description": "随时解答用车知识",
+      "domain": "车辆知识问答",
+      "legacySkill": "车辆知识问答",
+      "icon": "book",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "car",
+      "sceneId": "repair",
+      "name": "故障维修",
+      "description": "理解异常，找到下一步处理方式",
+      "domain": "车辆知识问答",
+      "legacySkill": "故障灯问询",
+      "icon": "diagnostic",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "car",
+      "sceneId": "outside-park",
+      "name": "车外语音泊车",
+      "description": "车外说出需求，了解泊车流程",
+      "domain": "全局语音",
+      "legacySkill": "Claw 全能助手",
+      "icon": "parking",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "car",
+      "sceneId": "outside-control",
+      "name": "车外基础车控",
+      "description": "车外开口，操作基础车辆功能",
+      "domain": "车辆控制",
+      "legacySkill": "多任务控车",
+      "icon": "car",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "travel",
+      "sceneId": "ma-travel",
+      "name": "一句话，安排复杂行程（MA）",
+      "description": "目的地、途经点与偏好，一起说",
+      "domain": "出行助手",
+      "legacySkill": "多日行程规划",
+      "icon": "route",
+      "video": "",
+      "poster": "",
+      "intents": [
+        "导航去公司",
+        "途经我以前去过的那家咖啡店",
+        "顺路找有空闲充电枪的快充站",
+        "把咖啡店和充电站加入途经点并排好顺序",
+        "避开拥堵路段",
+        "尽量少走收费路段",
+        "终点设到公司园区公共入口",
+        "告诉我预计到达时间",
+        "比较一下备选路线",
+        "记住这次路线偏好"
+      ],
+      "query": "导航去公司，途经我以前去过的那家咖啡店，顺路找有空闲充电枪的快充站，把咖啡店和充电站加入途经点并排好顺序，避开拥堵路段，尽量少走收费路段，终点设到公司园区公共入口，告诉我预计到达时间，比较一下备选路线，记住这次路线偏好。",
+      "futureVideo": "assets/videos/ma-travel.mp4"
+    },
+    {
+      "category": "travel",
+      "sceneId": "memory-nav",
+      "name": "记忆导航",
+      "description": "常去的地方，更自然地到达",
+      "domain": "出行助手",
+      "legacySkill": "常用地直达",
+      "icon": "memory",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "travel",
+      "sceneId": "precise-nav",
+      "name": "精准导航",
+      "description": "找到目的地真正需要到达的入口",
+      "domain": "出行助手",
+      "legacySkill": "目的地发现与精准到达",
+      "icon": "route",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "travel",
+      "sceneId": "guide-route",
+      "name": "攻略转路线",
+      "description": "把旅行想法整理成路线",
+      "domain": "出行助手",
+      "legacySkill": "多日行程规划",
+      "icon": "route",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "travel",
+      "sceneId": "along-route",
+      "name": "沿途好去处",
+      "description": "在顺路的地方发现惊喜",
+      "domain": "出行助手",
+      "legacySkill": "模糊POI搜索",
+      "icon": "search",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "life",
+      "sceneId": "ma-life",
+      "name": "一句话，安排聚餐（MA）",
+      "description": "口味、人数与时间，一次交代",
+      "domain": "生活服务",
+      "legacySkill": "餐厅订座与聚餐安排",
+      "icon": "service",
+      "video": "",
+      "poster": "",
+      "intents": [
+        "找一家适合四个人聚餐的安静川菜馆",
+        "在附近选评价好的",
+        "人均控制在150元以内",
+        "看看今晚19点有没有空位",
+        "告诉我等位多久",
+        "确认附近能停车",
+        "口味微辣，少油",
+        "确认后帮我订座",
+        "订之前说明费用和取消规则",
+        "记住我们的聚餐偏好"
+      ],
+      "query": "找一家适合四个人聚餐的安静川菜馆，在附近选评价好的，人均控制在150元以内，看看今晚19点有没有空位，告诉我等位多久，确认附近能停车，口味微辣，少油，确认后帮我订座，订之前说明费用和取消规则，记住我们的聚餐偏好。",
+      "futureVideo": "assets/videos/ma-life.mp4"
+    },
+    {
+      "category": "life",
+      "sceneId": "restaurant",
+      "name": "餐厅推荐与订座",
+      "description": "找到合适餐厅，再确认订座",
+      "domain": "生活服务",
+      "legacySkill": "餐厅订座与聚餐安排",
+      "icon": "service",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "life",
+      "sceneId": "pickup",
+      "name": "顺路点单取餐",
+      "description": "顺路点一份喜欢的餐食",
+      "domain": "生活服务",
+      "legacySkill": "餐饮与商品下单（外卖）",
+      "icon": "service",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "life",
+      "sceneId": "hotel",
+      "name": "酒店预订",
+      "description": "筛选房型，确认入住安排",
+      "domain": "生活服务",
+      "legacySkill": "住宿",
+      "icon": "service",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "life",
+      "sceneId": "tickets",
+      "name": "电影与活动订票",
+      "description": "安排一场期待已久的活动",
+      "domain": "生活服务",
+      "legacySkill": "电影票",
+      "icon": "ticket",
+      "video": "",
+      "poster": "",
+      "intents": []
+    },
+    {
+      "category": "entertainment",
+      "sceneId": "ma-music",
+      "name": "一句话，玩转音乐（MA）",
+      "description": "选歌、播放与偏好，一次说清",
+      "domain": "媒资娱乐",
+      "legacySkill": "音乐推荐与搜索",
+      "icon": "media",
+      "video": "",
+      "poster": "",
+      "intents": [
+        "放点适合夜间驾驶的轻快音乐",
+        "优先中文女声",
+        "加入我收藏的歌曲",
+        "不要伤感歌曲",
+        "把音量降低一点",
+        "开启随机播放",
+        "跳过最近重复听过的歌",
+        "整理成夜驾歌单",
+        "推荐几首相似歌曲",
+        "记住这套音乐偏好"
+      ],
+      "query": "放点适合夜间驾驶的轻快音乐，优先中文女声，加入我收藏的歌曲，不要伤感歌曲，把音量降低一点，开启随机播放，跳过最近重复听过的歌，整理成夜驾歌单，推荐几首相似歌曲，记住这套音乐偏好。",
+      "futureVideo": "assets/videos/ma-music.mp4"
+    },
+    {
+      "category": "entertainment",
+      "sceneId": "ma-video",
+      "name": "一句话，玩转视频（MA）",
+      "description": "找回剧情，继续上次的精彩",
+      "domain": "媒资娱乐",
+      "legacySkill": "影视推荐与查询",
+      "icon": "media",
+      "video": "",
+      "poster": "",
+      "intents": [
+        "找到上次没看完的家庭喜剧",
+        "先简短回顾剧情",
+        "从上次位置继续播放",
+        "开启中文字幕",
+        "画质设为高清",
+        "音量调小一点",
+        "跳过片头",
+        "关闭自动播放下一集",
+        "收藏这部作品",
+        "记住这些观看偏好"
+      ],
+      "query": "找到上次没看完的家庭喜剧，先简短回顾剧情，从上次位置继续播放，开启中文字幕，画质设为高清，音量调小一点，跳过片头，关闭自动播放下一集，收藏这部作品，记住这些观看偏好。",
+      "futureVideo": "assets/videos/ma-video.mp4"
+    },
+    {
+      "category": "entertainment",
+      "sceneId": "news",
+      "name": "新闻播报与解读",
+      "description": "听见新动态，也了解来龙去脉",
+      "domain": "媒资娱乐",
+      "legacySkill": "新闻播报",
+      "icon": "book",
+      "video": "",
+      "poster": "",
+      "intents": []
+    }
+  ]
+}

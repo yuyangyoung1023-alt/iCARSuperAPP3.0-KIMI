@@ -1,0 +1,54 @@
+{
+ "issues": [],
+ "f404": [],
+ "order": [
+  {
+   "name": "视野恢复",
+   "on": true
+  },
+  {
+   "name": "疲劳驾驶关怀",
+   "on": true
+  },
+  {
+   "name": "遗留物品提醒",
+   "on": true
+  },
+  {
+   "name": "回家模式",
+   "on": false
+  },
+  {
+   "name": "儿童遗留守护",
+   "on": false
+  },
+  {
+   "name": "儿童危险行为提醒",
+   "on": false
+  },
+  {
+   "name": "宠物遗留守护",
+   "on": false
+  },
+  {
+   "name": "通勤模式",
+   "on": false
+  },
+  {
+   "name": "记忆迎宾与恢复",
+   "on": false
+  },
+  {
+   "name": "主动内容推荐",
+   "on": false
+  },
+  {
+   "name": "沿途风景讲解",
+   "on": false
+  },
+  {
+   "name": "惬意午休",
+   "on": false
+  }
+ ]
+}

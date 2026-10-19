@@ -1,0 +1,43 @@
+{
+  "inlineBusinessScriptPreserved": true,
+  "v2Status": "",
+  "v3Remotes": "",
+  "resources": [
+    {
+      "path": "assets/videos/AI停车位置记忆.mp4",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/videos/停车扫码支付.mp4",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/videos/哨兵PLUS.mp4",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/前45.webp",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/正面.webp",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/侧面.webp",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/后面.webp",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/卡基狗.png",
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/brand/页面参考.png",
+      "sha256Matches": true
+    }
+  ]
+}

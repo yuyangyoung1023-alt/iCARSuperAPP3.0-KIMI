@@ -1,0 +1,20 @@
+{
+  "name": "iCAR Claw超级APP3.0",
+  "short_name": "iCAR Claw 3.0",
+  "description": "iCAR Claw 车内 Master Agent 语音交互体验 Demo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#07091a",
+  "theme_color": "#07091a",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "./icar-claw-v3"
+}

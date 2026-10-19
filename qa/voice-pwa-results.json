@@ -1,0 +1,41 @@
+[
+  {
+    "name": "V3 PWA注册并独立缓存",
+    "passed": true
+  },
+  {
+    "name": "原DM完整执行到结果与TTS调用",
+    "passed": true
+  },
+  {
+    "name": "原多轮执行",
+    "passed": true
+  },
+  {
+    "name": "明确结束指令确认后退出",
+    "passed": true
+  },
+  {
+    "name": "订座保留独立业务确认",
+    "passed": true,
+    "details": []
+  },
+  {
+    "name": "取消业务不提交",
+    "passed": true
+  },
+  {
+    "name": "确认才生成模拟回执",
+    "passed": true
+  },
+  {
+    "name": "运行资源均为本机",
+    "passed": true,
+    "details": []
+  },
+  {
+    "name": "最终脚本无异常",
+    "passed": true,
+    "details": []
+  }
+]

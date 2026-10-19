@@ -1,0 +1,33 @@
+app-master|Futuristic car cockpit at dusk, center touchscreen displaying a glowing grid of colorful app icons, a hand reaching toward the screen, soft holographic light rays, deep blue interior with warm amber accents
+scene-master|Futuristic car interior at night, a glowing holographic automation flowchart floating above the center console, connected nodes and toggle switches made of light, deep blue tones with cyan glow
+visibility|View from driver seat through the windshield in heavy rain at night, wipers sweeping, raindrops clearing to reveal a bright city road ahead, fog on glass edges dissolving, cinematic deep blue night
+fatigue|Close-up of a car driver seat area at night, a small driver-monitoring camera on the A-pillar glowing softly, calm dashboard ambient light, gentle reminder atmosphere, deep blue and warm amber
+item-left|A smartphone and a leather bag left on the back seat of a modern car at night, subtle warm spotlight highlighting them, quiet premium interior, deep blue tones
+commute|White boxy compact electric SUV driving through a modern city in early morning, sun rising between buildings, familiar commute road, soft golden light mixed with blue shadows
+welcome|Car door opening at night revealing a welcoming glowing interior, seats and ambient lights gently turning on, door handle illuminated, premium deep blue cabin with warm welcome glow
+content|Car dashboard at night with floating translucent recommendation cards for music and podcasts above the screen, elegant glass holograms, deep blue cabin, no readable text
+scenic|White compact electric SUV parked at a coastal mountain viewpoint at sunset, dramatic sea and cliffs, golden light, cinematic travel photography
+fortune|Mystical constellation star map hologram floating inside a dark premium car interior at night, glowing zodiac signs and stars, magical deep blue and violet ambiance
+encyclopedia|A glowing open book hologram with floating knowledge particles above a car center console at night, curious discovery mood, deep blue with warm light accents
+english|Two glowing translucent speech bubbles floating above a car center console at night, friendly conversation mood, small globe hologram between them, deep blue tones, no readable text
+visual-chat|View through a car windshield at dusk with an augmented-reality outline recognizing a landmark building ahead, subtle AR brackets and glow, deep blue evening city
+ma-car|Futuristic car cockpit with multiple floating holographic controls for climate, seats, windows and ambient light arranged around the driver, all adjustable at once, deep blue premium interior
+nap|A fully reclined premium car seat with a soft blanket, gentle warm ambient light, quiet cozy midday rest atmosphere inside a modern vehicle, calm and comfortable
+manual|A glowing digital car manual hologram open above the center console, pages of light with car diagrams, premium night cabin, deep blue tones, no readable text
+repair|A white compact electric SUV with its hood area inspected by a glowing diagnostic hologram showing vehicle health status, night garage ambiance, deep blue with amber highlights
+outside-park|A white compact electric SUV slowly parking itself into a marked space at night while a person stands nearby watching, sensors glowing, modern parking garage, cinematic
+outside-control|A person standing outside a white compact electric SUV at night speaking toward the car, its lights responding with a warm glow, premium residential street, cinematic
+ma-travel|A glowing holographic route map floating above a car dashboard at night, multiple waypoint pins connected in a smart order along a luminous route line, deep blue tones
+memory-nav|Car navigation screen glowing at night showing a familiar highlighted route toward a glowing home pin, cozy premium cabin, deep blue and warm amber
+precise-nav|Augmented reality navigation on a car windshield at night, precise lane-level guidance arrows aligned with the real road to an exact entrance, futuristic and clean
+guide-route|Travel photos and notes transforming into a glowing route line on a holographic map above a car console at night, creative planning mood, deep blue tones
+along-route|A glowing route on a holographic map with delightful point-of-interest pins for cafes and viewpoints along the way, night car interior, warm accents
+ma-life|A cozy round dinner table for four with Sichuan dishes in an elegant quiet restaurant seen at dusk, warm ambient light, inviting atmosphere, no people faces close-up
+restaurant|Elegant restaurant storefront at night with warm inviting lights and a small glowing reservation confirmation hologram, premium street, cinematic
+pickup|A coffee shop pickup window at dusk handing a paper bag of food to a driver in a white compact SUV, warm light from the shop, friendly convenient mood
+hotel|Modern boutique hotel entrance at night with warm glowing lobby lights and a doorman lantern, premium travel atmosphere, cinematic deep blue night
+tickets|A cinema entrance at night with a glowing marquee and abstract light patterns, excited anticipation mood, deep blue night with warm neon, no readable text
+ma-video|Rear seats of a premium car at night, passengers watching a movie on a glowing entertainment screen, cozy blankets, warm ambient light, no visible faces close-up
+news|Car dashboard in early morning with a glowing news broadcast waveform and a small anchor-desk hologram, fresh informative mood, soft sunrise light through windshield
+child-risk|Back seat of a premium car at night, a child safety seat with a soft glowing monitoring indicator watching over it, caring protective mood, deep blue and warm amber
+persona|A glowing holographic avatar silhouette with adjustable personality sliders floating above a car console at night, playful premium mood, deep blue and violet tones

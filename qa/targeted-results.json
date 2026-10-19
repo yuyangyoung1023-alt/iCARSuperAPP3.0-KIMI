@@ -1,0 +1,69 @@
+[
+  {
+    "name": "相同自然语言触发条件的互斥动作被阻断",
+    "passed": true,
+    "details": {
+      "phase": "decision",
+      "trigger": "工作日 · 18点 · 公司附近",
+      "matches": [
+        {
+          "level": "conflict",
+          "trigger": "工作日 · 18点 · 公司附近"
+        }
+      ],
+      "count": 13
+    }
+  },
+  {
+    "name": "同一触发条件互斥检测",
+    "passed": true
+  },
+  {
+    "name": "角色未保存退出保护",
+    "passed": true
+  },
+  {
+    "name": "角色放弃后跳转",
+    "passed": true
+  },
+  {
+    "name": "退出账号回发现导航一致",
+    "passed": true
+  },
+  {
+    "name": "访客隐藏自建资产",
+    "passed": true
+  },
+  {
+    "name": "重登录恢复资产",
+    "passed": true
+  },
+  {
+    "name": "刷新保留筛选",
+    "passed": true
+  },
+  {
+    "name": "智慧场景横滑布局",
+    "passed": true
+  },
+  {
+    "name": "iCAR趣玩横滑布局",
+    "passed": true
+  },
+  {
+    "name": "智能车控横滑布局",
+    "passed": true
+  },
+  {
+    "name": "智慧出行横滑布局",
+    "passed": true
+  },
+  {
+    "name": "智慧生活横滑布局",
+    "passed": true
+  },
+  {
+    "name": "智慧娱乐横滑布局",
+    "passed": true
+  }
+]
