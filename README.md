@@ -1,5 +1,7 @@
 # iCAR超级APP-KIMI 3.0
 
+**在线演示：<https://yuyangyoung1023-alt.github.io/iCARSuperAPP3.0-KIMI/>**（GitHub Pages，免安装直接体验）
+
 iCAR Claw 超级APP 3.0 的 KIMI 整改版：面向 iCAR V25 的智能座舱语音交互演示站，覆盖发现页六大场景分类、智能场景管理、助手设置全屏导航、独立 APP 场景虚拟跳转等完整链路。
 
 纯静态站点（HTML + CSS + JS），无需构建，本地起服务即可完整体验。
